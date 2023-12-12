@@ -177,39 +177,5 @@ app.get('/alldiseases/searchn', async (req, res) => {
   }
 });
 
-/*const main=async()=>{
-   const name1="ishika";
-   const title="sde";
-   const description="works with web3";
-   const principal=11;
 
-
-    const contractWithWallet=contract.connect(wallet);
-   
-   // const name=await contractWithWallet.createEmployee(title,description,principal,name1);
-  //  const tx=await name.wait();
-  //  console.log(tx);
-   
- // const resultString = JSON.stringify(x, null, 2);
- try {
-    const results = await contractWithWallet.getEmployees();
-     const jsonResults = results.map(result => ({
-            title: result[0],
-            description: result[1],
-            principal: result[2].toNumber(), // Convert BigNumber to a number
-            name: result[3],
-        }));
-
-        console.log(jsonResults);
-
-
-} catch (error) {
-if (error.reason) {
-    console.error(`Revert Reason: ${error.reason}`);
-} else {
-    console.error(error);
-}
-}
-}
-main()*/
 app.listen(4000);
