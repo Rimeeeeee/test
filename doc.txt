@@ -1,0 +1,26 @@
+for pvt key provide pvt key of metamask acc
+for rpc url check chainlink for latest available working rpc
+for api key use polgon mumbai create app and use that
+//Documentation for the built project 
+-the project aims at listing previous data and medicines related to a disease in a decentralized way
+-the following is the backend of the project
+-the diseases are stored in solidity
+-content are filtered and results are showed through backend
+-technology stack-solidity/ether.js/express/postman
+*create an empty directory 
+'npm i -D hardhat"
+"npx hardhat"
+press enter 4 times
+develop the solidity code
+rewrite the deploy.js
+change the hardhat.config.js by updating the pvt key(metamask acc pvt key),api key(create an app in polygon using desired rpc e.g-polygon mumbai), and rpc url by verifying the current availble rpc in chainlist
+successfully displayed result for all diseases and create disease 
+*to do update smart contract by creating search by remedies,name etc
+--discovered:erc 20 abi should be provided from contract.json file
+//created function create disease-which allows user to provide information on several disease
+//get disease which provide list of diseases
+//get disease by name, remedy,symptoms which enable user to search by the parameters
+//this project is a take on ayurveda which stores a range of diseases,it aims at storing information in a decentralized way
+//formally focuses on smart contract and backend
+//future implementation-to add function which will sort disease by timestamp,hash function for symptoms-[Ascii encoder-decoder]
+//target deadline:jan 2024
